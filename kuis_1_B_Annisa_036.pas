@@ -1,8 +1,9 @@
 program alamat;
-uses wincrt;
+uses crt;
 var
     jalan,no,kota,Kodpos:string;
 begin
+    clrscr;
     write('Jalan: ');
     readln(jalan);
     write('No: ');
