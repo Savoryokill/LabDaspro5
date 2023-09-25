@@ -1,9 +1,11 @@
 program biodata;
-uses wincrt;
+uses crt;
 var
-    nama,kom,alamat,nim:string;
+    nama,alamat,nim:string;
+    kom:char;
     {integer ga boleh melebihi 17.000~ karakter, selebihnya menjadi minus}
 begin
+    clrscr;
     write('Masukkan nama anda :');
     readln(nama);
     write('Masukkan nim anda :');
