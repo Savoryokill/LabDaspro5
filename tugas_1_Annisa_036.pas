@@ -3,7 +3,7 @@ var
     nama,nim,norut,stambuk,fak,prodi,jalur:string;
     kom:char;
     norutInt:integer;
-    //yang mau diubah, masukin variabel macem contoh bang andre
+    //yang mau diubah, masukin variabel macem contoh bang andreas, besok diubah :')
 begin 
 clrscr;
     write('Nama: ');
