@@ -44,6 +44,7 @@ Contoh 1:
 |NIM: `231401006`|
 |Fakultas: `Ilmu Komputer dan Teknologi Informasi`|
 |Prodi: `Ilmu Komputer`|
+|Stambuk:`2023`|
 |Jalur: `SNBP`|
 |Kelas: `C`|
 
@@ -59,6 +60,7 @@ Contoh 2:
 |NIM: `210301102`|
 |Fakultas: `Pertanian`|
 |Prodi: `Agroteknologi`|
+|Stambuk: `2021`|
 
 Untuk detail tiap Kode Fakultas dan Kode Prodi pada link berikut:
 [Klik aja ini :v](https://docs.google.com/spreadsheets/d/1s7yNQjytmaS7Y9XYd_ASlU8oOHj4-kO9SrOfwDJXjLo/edit?usp=sharing)
@@ -74,6 +76,9 @@ Untuk detail tiap Kode Fakultas dan Kode Prodi pada link berikut:
 2. tugas_1_[Nama Panggilan]_[3 digit terakhir NIM].jpg untuk Screenshot
 
    Contoh: `tugas_1_Andreas_067.png`
+
+### Commit Message:
+Pada saat mau mengirim File Buat Pesan Commit nya **Tugas 1**
 
 ## More Clue
 1. Untuk memotong string digit ke 1 dan 2 bisa dilakukan dengan cara `nim[1] + nim[2]`;
