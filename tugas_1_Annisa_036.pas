@@ -3,7 +3,7 @@ var
     nama,nim,norut,stambuk,fak,prodi,jalur:string;
     kom:char;
     norutInt:integer;
-    //yang mau diubah, masukin variabel macem contoh bang andreas, besok diubah :') sama edit ssan outputnya ama yang mandiri dan biasa make it in one folder
+    //note kecil : bang saya tetap pakai nomor urut dan writeln ditulis satu satu.
 begin 
 clrscr;
     write('Nama: ');
@@ -276,7 +276,7 @@ clrscr;
         if (prodi='01') then
         begin
             writeln('Prodi: Ilmu Komputer');
-                //No urut (saya mau pakek nomor urut pokoknya bang biar rapi :v)
+            //No urut 
             norut:= nim[7]+nim[8]+nim[9];
             writeln('No Urut: ', norut);
             //Kom
