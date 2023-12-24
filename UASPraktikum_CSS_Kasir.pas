@@ -10,7 +10,7 @@ type
 
 var
     DaftarMember: array of MemberData;
-    i, n, n1, tb, x, IndexMember: integer;
+    i, n, n1, x, IndexMember: integer;
     f: textfile;
     filename, yn, upyn: string;
     diskon, diskonMusiman, totalPembayaran, harga, totalakhir: real;
@@ -125,7 +125,7 @@ begin
     DecodeDate(waktu, year, month, day);
     if month = 12 then 
         diskonMusiman := 0.05 
-    else if month = 7 then 
+    else if month = 8 then 
         diskonMusiman := 0.1 
     else if month = 4 then 
         diskonMusiman := 0.05
@@ -550,18 +550,18 @@ begin
     waktu:=now;
     //isi kartu member
     rewrite(f);
-    writeln(f, '====================================');
-    writeln(f, '             Struk Bon');
-    writeln(f, '====================================');
+    writeln(f, '============================================');
+    writeln(f, '                Struk Bon');
+    writeln(f, '============================================');
     writeln(f, 'Tanggal                 : ', FormatDateTime('dd/mm/yyyy', waktu));
     writeln(f, 'Jam                     : ', FormatDateTime('hh:nn:ss', waktu));
     writeln(f, 'Rincian Harga');
     //rincian barang
-    writeln(f, '    Total Biaya             : ', totalakhir:0:0);
-    writeln(f, '    Total dengan diskon     : ', totalPembayaran:0:0);
+    writeln(f, '    Total Biaya             : Rp', totalakhir:0:0);
+    writeln(f, '    Total dengan diskon     : Rp', totalPembayaran:0:0);
     writeln(f,' ');
     writeln(f, 'Terimakasih sudah berbelanja di css!');
-    writeln(f, '====================================');
+    writeln(f, '============================================');
     close(f);
     writeln('Struk telah dicetak!');
     readln;
